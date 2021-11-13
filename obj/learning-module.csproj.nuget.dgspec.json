@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sr/git/03azure/netCoreAzure/learning-module/learning-module.csproj": {}
+  },
+  "projects": {
+    "/home/sr/git/03azure/netCoreAzure/learning-module/learning-module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sr/git/03azure/netCoreAzure/learning-module/learning-module.csproj",
+        "projectName": "learning-module",
+        "projectPath": "/home/sr/git/03azure/netCoreAzure/learning-module/learning-module.csproj",
+        "packagesPath": "/home/sr/.nuget/packages/",
+        "outputPath": "/home/sr/git/03azure/netCoreAzure/learning-module/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.16.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
